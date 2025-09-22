@@ -1,25 +1,25 @@
-# Retail Sales Analysis SQL Project
+# SQL Project (Retail Sales Analysis)
 
-## Project Overview
+## Overview
 
-**Project Title**: Retail Sales Analysis  
-**Database**: `p1_retail_db`
+**Title**: Retail Sales Analysis  
+**Database**: sql_project_p1
 
-This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
+This project showcases practical SQL skills commonly applied by data analysts to explore, clean, and analyze retail sales data. It includes creating a retail sales database, conducting exploratory data analysis (EDA), and solving business-related questions through SQL queries. The project is well-suited for beginners in data analysis who want to strengthen their SQL foundation through hands-on practice.
 
 ## Objectives
 
-1. **Set up a retail sales database**: Create and populate a retail sales database with the provided sales data.
-2. **Data Cleaning**: Identify and remove any records with missing or null values.
-3. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
-4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales data.
+1. **Database Setup**: Build and populate a retail sales database using the provided dataset.
+2. **Data Cleaning**: Detect and handle missing or null values to ensure data quality.
+3. **Exploratory Data Analysis (EDA)**: Conduct exploratory analysis to uncover patterns and understand key characteristics of the dataset.
+4. **Business Insights**: Apply SQL queries to answer business questions and generate actionable insights from the sales data.
 
-## Project Structure
+## Structure
 
 ### 1. Database Setup
 
-- **Database Creation**: The project starts by creating a database named `p1_retail_db`.
-- **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+- **Database Creation**: The project begins with creating a database named `sql_project_p1`.
+- **Table Creation**: A table called retail_sales is created to store the dataset. It includes key fields such as transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
 ```sql
 CREATE DATABASE p1_retail_db;
@@ -202,6 +202,7 @@ GROUP BY shift
 ## Conclusion
 
 This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+
 
 
 

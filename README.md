@@ -22,22 +22,22 @@ This project showcases practical SQL skills commonly applied by data analysts to
 - **Table Creation**: A table called retail_sales is created to store the dataset. It includes key fields such as transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
 ```sql
-CREATE DATABASE p1_retail_db;
+CREATE DATABASE sql_project_p1;
 
 CREATE TABLE retail_sales
-(
-    transactions_id INT PRIMARY KEY,
-    sale_date DATE,	
-    sale_time TIME,
-    customer_id INT,	
-    gender VARCHAR(10),
-    age INT,
-    category VARCHAR(35),
-    quantity INT,
-    price_per_unit FLOAT,	
-    cogs FLOAT,
-    total_sale FLOAT
-);
+            (
+               transactions_id INT PRIMARY KEY,
+               sale_date DATE,
+               sale_time TIME,	
+               customer_id INT,
+               gender VARCHAR(15),
+               age INT,
+               category VARCHAR(15),
+               quantiy INT,
+               price_per_unit FLOAT,
+               cogs FLOAT,
+               total_sale FLOAT
+            );
 ```
 
 ### 2. Data Exploration & Cleaning
@@ -202,6 +202,7 @@ GROUP BY shift
 ## Conclusion
 
 This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+
 
 
 
